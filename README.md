@@ -8,8 +8,8 @@
 1. I fetched the movie_id from the Movie DB using the titles from the NYTimes query.
 1. I used the movie_id to fetch the full movie details from the Movie DB.
 2. I merged both data sets using an inner join, on column "title".
-1. I removed unnecessary characters from the merged file columns, deleted duplicate rows, dropped one column and rest the index.
-1. I wrote the cleaned up data to a CSV file called MergedMovies.
+1. I removed unnecessary characters from the merged file columns, deleted duplicate rows, dropped one column and reset the index.
+1. I wrote the cleaned up data to a CSV file called MergedMovies, into the same directory as this code.
 
 ## Sources of code
-* Most of my code is based on code provided in Week 6 Data Sourcing Activities
+* Most of my code is based on code provided in Week 6 Data Sourcing Activities of Columbia University's AI bootcamp
